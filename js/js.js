@@ -24,11 +24,13 @@ class Acties{
         this.beweging= beweging;
         this.uitvoering= uitvoering;
     }
+    toString(){
+        this.beweging + "25km/u" + this.uitvoering + "ring ring" ;
+    }
+
 }
 class Snelheid{
     constructor(snelheid) {
         this.snelheid= snelheid;
     }
 }
-
-

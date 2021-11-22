@@ -12,13 +12,14 @@ nav li{
     height: 70px;
     width: 0%;
     /*    Transition van een button: Transition button*/
-    transition-property: width;
     transition-duration: 1000ms; /* duur van hoelang de transition moet duren*/
     transition-delay: 50ms;
+    transition-timing-function: linear
 }
 nav li:hover{
    background-color: yellow;
    width: 100%;
+
 
 }
 
