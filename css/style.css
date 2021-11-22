@@ -1,0 +1,25 @@
+/*Styling Navbar*/
+
+body{
+    font-family: "Roboto Light";
+    background:white;
+}
+.navbar{
+
+}
+nav li{
+
+    height: 70px;
+    width: 0%;
+    /*    Transition van een button: Transition button*/
+    transition-property: width;
+    transition-duration: 1000ms; /* duur van hoelang de transition moet duren*/
+    transition-delay: 50ms;
+}
+nav li:hover{
+   background-color: yellow;
+   width: 100%;
+
+}
+
+/*Niet zo mooie styling maar de hover is duidelijk*/
