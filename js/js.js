@@ -25,7 +25,7 @@ class Acties{
         this.uitvoering= uitvoering;
     }
     toString(){
-        this.beweging + "25km/u" + this.uitvoering + "ring ring" ;
+        this.beweging + "25km/u" + this.uitvoering + "ring ring" ; // toonbaar in de string
     }
 
 }
